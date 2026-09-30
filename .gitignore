@@ -242,3 +242,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 >>>>>>> 0eee5f3ee34e4c5ef4673190dcf91153fdd49513
+db.sqlite3
