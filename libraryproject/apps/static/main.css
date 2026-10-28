@@ -1,0 +1,75 @@
+/* ---------- Task 1: Links ---------- */
+.links-page {
+  margin: 0;
+}
+
+.block-link {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#link1 { background-color: #acf3bd; }
+#link1:link    { color: red; }
+#link1:visited { color: darkred; }
+#link1:hover   { color: white; background-color: green; }
+#link1:active  { color: blue; }
+
+#link2 { background-color: #555555; }
+#link2:link    { color: gold; }
+#link2:visited { color: orange; }
+#link2:hover   { color: white; background-color: #222222; }
+#link2:active  { color: red; }
+
+#link3 { background-color: black; }
+#link3:link    { color: white; }
+#link3:visited { color: lightgray; }
+#link3:hover   { color: cyan; }
+#link3:active  { color: red; }
+
+/* ---------- Task 2: Text formatting ---------- */
+.formatting-title {
+  color: green;
+  background-color: beige;
+  padding: 10px;
+}
+
+.formatting p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+/* ---------- Task 3: Listing ---------- */
+.listing-title {
+  color: white;
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+/* ---------- Task 4: Tables ---------- */
+.table1 {
+  margin: 0 auto 30px auto;
+}
+
+.table1 caption {
+  font-weight: bold;
+}
+
+.table1 th,
+.table1 td:first-child {
+  text-align: center;
+}
+
+.table2 {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.table2 th,
+.table2 td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
